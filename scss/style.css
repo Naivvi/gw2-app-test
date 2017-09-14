@@ -1,0 +1,13 @@
+.materialStorage__box {
+  width: 2.85em;
+  height: 2.85em;
+  background-size: cover; }
+.materialStorage__box--filter {
+  filter: grayscale(100%); }
+.materialStorage__category {
+  height: 100%;
+  width: 60em;
+  margin: auto;
+  padding-bottom: 2.5em; }
+
+/*# sourceMappingURL=style.css.map */

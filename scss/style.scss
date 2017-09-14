@@ -1,0 +1,88 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.materialStorage {
+  padding-top: 5em;
+
+
+  &__box {
+    width: 2.85em;
+    height: 2.85em;
+    background-size: cover;
+    margin: 0.2em;
+    position: relative;
+  }
+
+  &__box--filter {
+      filter: grayscale(100%)
+  }
+
+  &__category {
+    height: 100%;
+    width: 33em;
+    margin: auto;
+    padding-bottom: 4em;
+      position: relative;
+  }
+
+  &__count {
+    font-size: 1em;
+    position: absolute;
+    right: 5%;
+    top: -42%;
+    color: #fff4b6;
+  }
+
+  &__header {
+    position: absolute;
+    top: -2.5em;
+    color: #fff;
+
+  }
+}
+
+  .accountBank {
+    padding-top: 5em;
+
+
+    &__box {
+      width: 2.85em;
+      height: 2.85em;
+      background-size: cover;
+      margin: 0.2em;
+      position: relative;
+    }
+
+    &__box--filter {
+        filter: grayscale(100%)
+    }
+
+    &__box--empty {
+        background-color: #e1e1e1;
+    }
+
+
+    &__tab {
+      height: 100%;
+      width: 33em;
+      margin: auto;
+      padding-bottom: 4em;
+        position: relative;
+    }
+
+    &__count {
+      font-size: 1em;
+      position: absolute;
+      right: 5%;
+      top: -42%;
+      color: #fff4b6;
+    }
+
+    &__header {
+      position: absolute;
+      top: -2.5em;
+      color: #fff;
+
+    }
+  }
