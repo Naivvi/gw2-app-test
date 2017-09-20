@@ -266,3 +266,14 @@ var getAccountBank = fetch(baseAPI + 'account/bank' + accessToken + currentKey)
 				}
 		});
 });
+
+
+var getMapIds = fetch(baseAPI + 'maps')
+	.then(function(response){
+		return response.json();
+	})
+
+getMapIds.then(function(response){
+								var myWorker = new Worker('js/test.js');
+								myWorker.postMessage([response, baseAPI]);
+})
